@@ -1,0 +1,40 @@
+{
+  "name": "12-factor-frontend",
+  "version": "0.0.1",
+  "description": "A 12 factor isomorphic template for client-side Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pierregoudjo/twelve-factor-js.git"
+  },
+  "keywords": [
+    "isomorphic",
+    "12-factor",
+    "rendr"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierregoudjo/twelve-factor-js/issues"
+  },
+  "homepage": "https://github.com/pierregoudjo/twelve-factor-js#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.9.1",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "underscore": "^1.8.3",
+    "rendr": "^1.1.1",
+    "handlebars": "4.0.3",
+    "rendr-handlebars": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-watch": "^4.3.5",
+    "webpack": "^1.12.2",
+  }
+}
